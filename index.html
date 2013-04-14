@@ -1,0 +1,112 @@
+<html>
+<head>
+    <title></title>
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' />
+
+    <style>
+        body {
+            background-color: grey;
+            background-image: url('img/grey_wash_wall.png');
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 80;
+            color: white;
+            text-align: center;
+        }
+
+        .couple {
+            width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+        }
+
+        img {
+            width: 300px;
+        }
+
+        .image, .time, .unit {
+            display: inline-block;
+            padding-right: auto;
+        }
+
+        .time {
+            font-family: 'Roboto', sans-serif;
+            font-size: 40;
+            color: white;
+            text-align: right;
+            width: 300px;
+            vertical-align: top;
+        }
+
+        label {
+            font-size: 10;
+        }
+
+        .unit {
+            width: 25%;
+        }
+
+        .days, .hours, .minutes, .seconds {
+            width: 90%;
+            padding-right: 10%;
+        }
+
+        #bandf {
+            background-color: orange;
+        }
+
+        #pandk {
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <h1>The Wedding Countdown</h1>
+        <div id="bandf" class="couple">
+            <div class="image">
+                <img src="img/bandf.jpg" alt="">
+            </div><div class="time">
+                <div class="unit">
+                    <label>D</label>
+                    <div class="days">100</div>
+                </div><div class="unit">
+                    <label>H</label>
+                    <div class="hours">10</div>
+                </div><div class="unit">
+                    <label>M</label>
+                    <div class="minutes">10</div>
+                </div><div class="unit">
+                    <label>S</label>
+                    <div class="seconds">10</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="pandk" class="couple">
+            <div class="image">
+                <img src="img/pandk.jpg" alt="">
+            </div><div class="time">
+                <div class="unit">
+                    <label>D</label>
+                    <div class="days">100</div>
+                </div><div class="unit">
+                    <label>H</label>
+                    <div class="hours">10</div>
+                </div><div class="unit">
+                    <label>M</label>
+                    <div class="minutes">10</div>
+                </div><div class="unit">
+                    <label>S</label>
+                    <div class="seconds">10</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/days.js" ></script>
+</body>
+</html>
