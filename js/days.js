@@ -17,6 +17,6 @@ function calculateTime(date, element) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    calculateTime(new Date(2013, 5, 7, 14, 30), document.getElementById("bandf"));
-    calculateTime(new Date(2013, 12, 21, 14, 30), document.getElementById("pandk"));
+    calculateTime(new Date(2013, 6, 5, 13, 30), document.getElementById("bandf"));
+    calculateTime(new Date(2013, 11, 21, 13, 30), document.getElementById("pandk"));
 });
